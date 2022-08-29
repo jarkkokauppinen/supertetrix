@@ -1,0 +1,14 @@
+{
+  "name": "super_tetrix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Jarkko Kauppinen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
