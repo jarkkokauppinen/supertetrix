@@ -5,7 +5,7 @@ require('dotenv').config()
 
 app.use('/static', express.static('./static/'))
 
-const PORT = 5000 || process.env.PORT
+const PORT = process.env.PORT
 
 app.get('/', (_req, res) => {
   res.sendFile(__dirname + '/index.html')
